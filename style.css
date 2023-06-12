@@ -1,0 +1,138 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #E5E5E5;
+}
+
+.container {
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 5px;
+}
+
+.logo{
+    width: 100%;
+    float: left;
+}
+
+.left{
+    float: left;
+    width: 70%;
+    height: 69%;
+    border-radius: 24px;
+}
+
+.right{
+    float: right;
+    width: 30%;
+    height: auto;
+
+    background: #FFFFFF;
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+.left_button{
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
+}
+
+.logo_img{
+    margin-top: 1%;
+    margin-left: 5%;
+    float: inherit; 
+}
+
+.tittle{
+    float: inherit;
+    margin-left: 15%;
+}
+
+.text_input{
+    float: left;
+    margin-left: 10%;
+    margin-top: 7%;
+    width: 80%;
+    height: 80%;
+    color: #0A3871;
+    font-size: 32px;
+    border : none; 
+    outline: none;
+    background: #E5E5E5;
+}
+
+#imagen_derecha{
+    margin-top: 15%;
+    margin-left: 5%;
+    width: 90%;
+    height: auto;
+}
+
+#texto{
+    margin-left: 7%;
+    margin-right: 5%;
+    text-align: center;
+    color: #343A40;
+
+}
+
+#text2{
+    margin-left: 10%;
+    width: 80%;
+    height: 60%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 90%;
+    text-align: center;
+
+    color: #495057;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+    border : none; 
+    outline: none;
+    
+}
+
+#btn_encriptar{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 15%;
+    background: #0A3871;
+    border-radius: 24px;
+    color: #FFFFFF;
+}
+
+#btn_desencriptar{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 10%;
+    background: #D8DFE8;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+}
+
+#copiar{
+    margin-left: 33%;
+    margin-top: 90%;
+    padding: 24px;
+    width: 40%;
+    height: 10%;
+    box-sizing: border-box;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    display: none;
+}
